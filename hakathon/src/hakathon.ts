@@ -290,7 +290,7 @@ const manageLibrary = new LibraryManager();
 let choice = -1;
 do {
     menu();
-    choice = readlineSync.questionInt('Nhập lựa chọn cua bạn: ');
+    choice = readlineSync.questionInt('Nhap lua chon cua ban: ');
     if (choice === 1) {
         manageLibrary.addBorrower();
     } else if (choice === 2) {
